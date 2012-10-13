@@ -82,7 +82,7 @@ body {
 
 .title h1 {
 /*    font-weight: lighter;*/
-    font-size: 82px;
+    font-size: 72px;
     padding-top:20px;
 }
 
@@ -251,6 +251,12 @@ a:hover {
 /*    .title {
         float: left;
     }*/
+   
+   .title h1 {
+/*    font-weight: lighter;*/
+        font-size: 82px;
+        padding-top:20px;
+    }
 
     nav {
         padding-bottom: 30px;
