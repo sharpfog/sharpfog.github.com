@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[sharpfog.com]]></title><description><![CDATA[sharpfog.com blog]]></description><link>http://sharpfog.com</link><generator>NodeJS RSS Module</generator><lastBuildDate>Sun, 14 Oct 2012 00:11:36 GMT</lastBuildDate><atom:link href="http://sharpfog.com/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Hello world (with the Crispy site generator)!]]></title><description><![CDATA[<p>It&#39;s time for my obligatory hello world post! I&#39;m kicking off this blog mostly as a place to store some thoughts and code tidbits. All content is my own unless otherwise noted and does not represent the opinions of any company or organization (has to be said).
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[sharpfog.com]]></title><description><![CDATA[sharpfog.com blog]]></description><link>http://sharpfog.com</link><generator>NodeJS RSS Module</generator><lastBuildDate>Sun, 14 Oct 2012 17:26:46 GMT</lastBuildDate><atom:link href="http://sharpfog.com/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Finding an NPM package version number]]></title><description><![CDATA[<p>I’ve been learning the in’s and out’s of building packages with <a href="https://npmjs.org/">NPM</a> lately, and I keep running into the following situation:
+
+</p>
+<p>I find myself needing some feature that&#39;s not built into nodejs itself. I google around and find a GitHub project that does exactly what I need. Awesome. Better yet, the author published a package to npm! Woohoo! So I jump into my favorite editor, pop open my package.json, type the name of the package, and realize...I don&#39;t know the package&#39;s current version number. Typically I&#39;d go routing around npmjs.org until I found it, but fear not! The npm authors have given us a better way!
+
+</p>
+<p>Just type the following into your terminal:
+
+</p>
+<pre><code>npm info &lt;package name&gt; version</code></pre>
+<p>And bam there you go! Thanks npm!!</p>
+]]></description><link>http://sharpfog.com/blog/2012/10/14/npm-package-latest-version.html</link><guid isPermaLink="true">http://sharpfog.com/blog/2012/10/14/npm-package-latest-version.html</guid><dc:creator><![CDATA[sharpfog]]></dc:creator><pubDate>Sun, 14 Oct 2012 17:13:21 GMT</pubDate></item><item><title><![CDATA[Hello world (with the Crispy site generator)!]]></title><description><![CDATA[<p>It&#39;s time for my obligatory hello world post! I&#39;m kicking off this blog mostly as a place to store some thoughts and code tidbits. All content is my own unless otherwise noted and does not represent the opinions of any company or organization (has to be said).
 
 </p>
 <p>This post is not just an ole hello world post though, because it&#39;s powered by the static site generator I&#39;ve been building for <a href="http://nodejs.org/">Node.js</a> called <a href="http://github.com/sharpfog/crispy">Crispy</a>!

@@ -8,7 +8,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>sharpfog blog - sharpfog.com</title>
+    <title>Finding an NPM package version number - sharpfog.com</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
 
@@ -51,12 +51,9 @@
     <div class="main-container">
       <div class="main wrapper clearfix">
 
-        
-<article>
-  <div class="post">
-    <h1><a href="/blog/2012/10/14/npm-package-latest-version.html">Finding an NPM package version number</a></h1>
-    <div class="date">Sun Oct 14 2012 10:13:21 GMT-0700 (PDT)</div>
-    <div><p>I’ve been learning the in’s and out’s of building packages with <a href="https://npmjs.org/">NPM</a> lately, and I keep running into the following situation:
+        <h1><a href="">Finding an NPM package version number</a></h1>
+<div>Sun Oct 14 2012 10:13:21 GMT-0700 (PDT)</div>
+<p>I’ve been learning the in’s and out’s of building packages with <a href="https://npmjs.org/">NPM</a> lately, and I keep running into the following situation:
 
 </p>
 <p>I find myself needing some feature that&#39;s not built into nodejs itself. I google around and find a GitHub project that does exactly what I need. Awesome. Better yet, the author published a package to npm! Woohoo! So I jump into my favorite editor, pop open my package.json, type the name of the package, and realize...I don&#39;t know the package&#39;s current version number. Typically I&#39;d go routing around npmjs.org until I found it, but fear not! The npm authors have given us a better way!
@@ -67,52 +64,6 @@
 </p>
 <pre><code>npm info &lt;package name&gt; version</code></pre>
 <p>And bam there you go! Thanks npm!!</p>
-</div>
-  </div>
-</article>
-
-<article>
-  <div class="post">
-    <h1><a href="/blog/2012/10/12/hello-world.html">Hello world (with the Crispy site generator)!</a></h1>
-    <div class="date">Fri Oct 12 2012 17:21:11 GMT-0700 (PDT)</div>
-    <div><p>It&#39;s time for my obligatory hello world post! I&#39;m kicking off this blog mostly as a place to store some thoughts and code tidbits. All content is my own unless otherwise noted and does not represent the opinions of any company or organization (has to be said).
-
-</p>
-<p>This post is not just an ole hello world post though, because it&#39;s powered by the static site generator I&#39;ve been building for <a href="http://nodejs.org/">Node.js</a> called <a href="http://github.com/sharpfog/crispy">Crispy</a>!
-
-</p>
-<h2>What&#39;s Crispy?</h2>
-<p>Crispy is a dead-simple static site generator inspired by the likes of <a href="http://github.com/cloudhead/toto">toto</a> but for Node.js (my current platform of choice for building/hacking web stuffs). Crispy also supports blogging and will gather up all your posts into neatly formatted pages for you (like the very page you&#39;re reading right now!!).
-
-
-</p>
-<h2>Do we really need another site generator?</h2>
-<p>Yes I know static site/blog generators have been been making their resurgence for a while now thanks to the availability of terrific services like <a href="http://pages.github.com">GitHub Pages</a>, and because many people (myself included) just don&#39;t need a big, dynamic CMS to power a personal website. So I&#39;m a little late to the party. But I couldn&#39;t find a static site generator for Node.js I realled liked, and really, why not write one if you feel like it?
-
-</p>
-<p>So here&#39;s Crispy in a nutshell: 
-
-</p>
-<ul>
-<li>Page layouts powered by <a href="http://handlebarsjs.com/">handlebars</a></li>
-<li>Support for nested layouts (makes layouts a little more reusable)</li>
-<li>Blog posts written in <a href="http://daringfireball.net/projects/markdown/">markdown</a></li>
-<li>Fast compiler that turns all this into pristine static html</li>
-<li>Built-in &quot;live&quot; server that renders pages on demand (great for hosting behind a cache like Varnish)</li>
-<li>Built-in static server that delivers pre-rendered pages (in case you just can&#39;t be bothered to setup a static file server yourself)</li>
-</ul>
-<p>One day soon I&#39;ll get it cleaned up and &quot;production&quot; ready. But for now it&#39;s just my little experiment. Enjoy!
-
-</p>
-</div>
-  </div>
-</article>
-
-  
-
-
-
-
 
 
       </div>
