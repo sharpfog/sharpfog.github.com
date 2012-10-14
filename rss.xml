@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[sharpfog.com]]></title><description><![CDATA[sharpfog.com blog]]></description><link>http://sharpfog.com</link><generator>NodeJS RSS Module</generator><lastBuildDate>Sun, 14 Oct 2012 00:11:36 GMT</lastBuildDate><atom:link href="http://sharpfog.com/rss.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Hello world (with the Crispy site generator)!]]></title><description><![CDATA[<p>It&#39;s time for my obligatory hello world post! I&#39;m kicking off this blog mostly as a place to store some thoughts and code tidbits. All content is my own unless otherwise noted and does not represent the opinions of any company or organization (has to be said).
+
+</p>
+<p>This post is not just an ole hello world post though, because it&#39;s powered by the static site generator I&#39;ve been building for <a href="http://nodejs.org/">Node.js</a> called <a href="http://github.com/sharpfog/crispy">Crispy</a>!
+
+</p>
+<h2>What&#39;s Crispy?</h2>
+<p>Crispy is a dead-simple static site generator inspired by the likes of <a href="http://github.com/cloudhead/toto">toto</a> but for Node.js (my current platform of choice for building/hacking web stuffs). Crispy also supports blogging and will gather up all your posts into neatly formatted pages for you (like the very page you&#39;re reading right now!!).
+
+
+</p>
+<h2>Do we really need another site generator?</h2>
+<p>Yes I know static site/blog generators have been been making their resurgence for a while now thanks to the availability of terrific services like <a href="http://pages.github.com">GitHub Pages</a>, and because many people (myself included) just don&#39;t need a big, dynamic CMS to power a personal website. So I&#39;m a little late to the party. But I couldn&#39;t find a static site generator for Node.js I realled liked, and really, why not write one if you feel like it?
+
+</p>
+<p>So here&#39;s Crispy in a nutshell: 
+
+</p>
+<ul>
+<li>Page layouts powered by <a href="http://handlebarsjs.com/">handlebars</a></li>
+<li>Support for nested layouts (makes layouts a little more reusable)</li>
+<li>Blog posts written in <a href="http://daringfireball.net/projects/markdown/">markdown</a></li>
+<li>Fast compiler that turns all this into pristine static html</li>
+<li>Built-in &quot;live&quot; server that renders pages on demand (great for hosting behind a cache like Varnish)</li>
+<li>Built-in static server that delivers pre-rendered pages (in case you just can&#39;t be bothered to setup a static file server yourself)</li>
+</ul>
+<p>One day soon I&#39;ll get it cleaned up and &quot;production&quot; ready. But for now it&#39;s just my little experiment. Enjoy!
+
+</p>
+]]></description><link>http://sharpfog.com/blog/2012/10/12/hello-world.html</link><guid isPermaLink="true">http://sharpfog.com/blog/2012/10/12/hello-world.html</guid><dc:creator><![CDATA[sharpfog]]></dc:creator><pubDate>Sat, 13 Oct 2012 00:21:11 GMT</pubDate></item></channel></rss>
