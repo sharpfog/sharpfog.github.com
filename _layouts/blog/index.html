@@ -4,11 +4,13 @@
 ---
 
 {{#each articles}}
+<article>
   <div class="post">
     <h1><a href="{{this.path}}">{{this.title}}</a></h1>
     <div class="date">{{this.date}}</div>
     <div>{{{this.content}}}</div>
   </div>
+</article>
 {{/each}}
   
 {{#if next}}
